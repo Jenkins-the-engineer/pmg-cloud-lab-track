@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="EAU-AX879wP2Tpu0yS9Y">
+    <mxGraphModel dx="1022" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Router" vertex="1">
+          <mxGeometry height="50" width="50" x="365" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-4" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="Core Switch" vertex="1">
+          <mxGeometry height="40" width="75" x="352.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="389.5" y="170" as="sourcePoint" />
+            <mxPoint x="389.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="389.5" y="230" />
+            </Array>
+            <mxPoint x="389.5" y="240" as="sourcePoint" />
+            <mxPoint x="389.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Guest Wifi&lt;div&gt;192.168.10.0/26&lt;/div&gt;&lt;div&gt;Gateway: 192.168.10.01&lt;/div&gt;&lt;div&gt;40 host&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="production&lt;div&gt;192.168.10.64/27&lt;/div&gt;&lt;div&gt;gateway: 192.168.10.65&lt;/div&gt;&lt;div&gt;25 host&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="210" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="management&lt;div&gt;192.168.10.96/28&lt;/div&gt;&lt;div&gt;Gateway: 192.168.10.97&lt;/div&gt;&lt;div&gt;10 host&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Servers&lt;div&gt;192.168.10.112/28&lt;/div&gt;&lt;div&gt;Gateway: 192.168.10.113&lt;/div&gt;&lt;div&gt;8 host&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="640" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-13" edge="1" parent="1" source="z2NcvBwZ8jNWBU197IOi-9" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="z2NcvBwZ8jNWBU197IOi-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="349.5" as="sourcePoint" />
+            <mxPoint x="220" y="349.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="355" y="349.5" as="sourcePoint" />
+            <mxPoint x="435" y="349.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2NcvBwZ8jNWBU197IOi-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="z2NcvBwZ8jNWBU197IOi-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="349.5" as="sourcePoint" />
+            <mxPoint x="660" y="349.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
